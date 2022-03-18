@@ -1,0 +1,22 @@
+-- СОЗДАНИЕ БАЗЫ ДАННЫХ HOMEWORK_1
+
+CREATE DATABASE HOMEWORK_1;
+
+/*
+	КОММЕНТАРИЙ К БД
+*/;
+
+USE HOMEWORK_1;
+CREATE TABLE HOMEWORK_1_tbl(
+id INT,
+name VARCHAR(100)
+);
+INSERT INTO HOMEWORK_1_tbl VALUES (1, 'test1');
+INSERT INTO HOMEWORK_1_tbl VALUES (2, 'test2');
+INSERT INTO HOMEWORK_1_tbl VALUES (3, 'test3');
+INSERT INTO HOMEWORK_1_tbl VALUES (4, 'test4');
+
+SELECT * FROM  HOMEWORK_1_tbl;
+
+
+
