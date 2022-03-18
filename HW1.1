@@ -1,0 +1,16 @@
+-- создание базы данных test1
+CREATE DATABASE test1;
+/*
+использование БД test1
+*/
+
+USE test1;
+
+CREATE TABLE test1_tb1( 
+id INT, 
+name VARCHAR(100)
+);
+
+INSERT INTO test1_tb1 VALUES (1, 'test1');
+
+SELECT * FROM test1_tb1;
